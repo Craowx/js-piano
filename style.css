@@ -1,0 +1,73 @@
+/* Minimal reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+
+
+
+/* Container styles */
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: #8E8E8E;
+}
+
+main {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+
+
+
+/* Piano styles */
+
+.piano {
+    display: flex;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.key-wrapper {
+    position: relative
+}
+
+button {
+    cursor: pointer;
+}
+
+    /* White keys */
+
+    .white-key {
+        width: 3rem;
+        height: 12rem;
+        background-color: white;
+        border: 1px solid black;
+        margin-right: 0.2rem;
+    }
+
+    /* Black keys */
+
+    .black-key {
+        width: 2rem;
+        height: 8rem;
+        background-color: black;
+        border: none;
+        position: absolute;
+        top: 0;
+        left: 2.1rem;
+        z-index: 1;
+    }
