@@ -73,8 +73,8 @@ button {
     }
 
 
-    @media only screen and (max-width: 700px) {
-        body {
-            overflow: scroll;
+    @media only screen and (max-width: 600px) {
+        .piano {
+            rotate: 90deg;
         }
     }
